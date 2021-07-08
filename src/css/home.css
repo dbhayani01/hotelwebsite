@@ -1,0 +1,45 @@
+h5 {
+  color: black;
+  width: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+h2 {
+  color: black;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-centered {
+  margin-left: 250px;
+}
+
+.textunder {
+    width: 400px; 
+    text-align: center;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: sans-serif;
+  background: #76d8ee;  
+}
